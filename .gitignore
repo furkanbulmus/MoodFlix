@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+
+# System files
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# Env files
+.env
+.env.local
+
+# Editor folders
+.vscode/
+.idea/
+
+# Public assets if you don't want to commit them
+server/public/
+
+# Vite config files - emin ol gerekliyse
+vite.config.ts.*
+
+# Archives
+*.tar.gz
+
+# Test coverage
+coverage/
